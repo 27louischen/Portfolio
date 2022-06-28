@@ -1,13 +1,146 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
+
+body {
+    background-color: #353A4A;
+}
+
+.navigation {
+    position: fixed;
+    top: 11%;
+    width: 100%;
+    background-color: transparent;
+    height: 90px;
+    text-align: center;
+    line-height: 4px;
+}
+
+.navigation nav {
+    color: white;
+    font-size: 120px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* .header.shrink {
+    height: 60px;
+}
+
+.header.shrink nav {
+    font-size: 25px;
+} */
+
+nav ul li {
+    display: inline-block;
+    margin: 2px 15px;
+    padding: 4px;
+}
+
+.home {
+    align-items: center;
+    display: flex;
+    min-width: 100%;
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.heroImg {
+    float: right;
+    color: white;
+    max-width: 55%;
+    margin-right: 23%;
+}
+
+.hello {
+    text-justify: center;
+    text-align: left;
+    flex-direction: row;
+    max-width: 35%;
+    margin-left: 13%;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4vw;
+    color: white;
+    width: auto;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: normal;
+    color: white;
+}
+
+.casestudies {
+    position: relative;
+    float: center;
+    height: 100rem;
+}
+
+.casestudies p {
+    font-size: 1vw;
+}
+
+.lftpic {
+    display: inline-block;
+    width: 50%;
+}
+
+.rgtpic {
+    display: inline-block;
+    width: 50%;
+}
+
+.study1 {
+    position: relative;
+    float: center;
     text-align: center;
+    width: 40%;
+    margin-bottom: 10rem;
+}
+
+.study2 {
+    position: relative;
+    float: center;
+    text-align: center;
+    width: 40%;
+}
+
+/* .study3 {
+    position: relative;
+    float: center;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+} */
+
+button {
+    background-color: #33FF99;
+    border: none;
+    color: #4D515F;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    height: 300px;
+    background-color: white;
 }
