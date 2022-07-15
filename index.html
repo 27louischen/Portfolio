@@ -1,5 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Louis Chen</title>
+    <meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Roboto&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+</head><!DOCTYPE html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="css/style.css">
@@ -21,50 +31,86 @@
         </nav>
     </div>
     <section class="home">
-        <div class="hello">
-            <h1>Hi, I’m <span style="color: #33FF99">Louis Chen</span>.</h1>
-            <p>I’m a UX/UI designer from Los Angeles.
-
-                I earned a degree in graphic design at UC Davis, where I learned
-                to balance aesthetics with product usability. My focus these
-                days is in visual communication and human-centered design.
-                <span style="color: #353A4A">And I’m trying my best.</span>
-            </p>
-        </div>
-        <div>
-            <img src="/images/IMG_3313.jpeg" alt="portrait" class="heroImg">
+        <div class="homeContainer">
+            <div class="hello">
+                <h1>Hi, I’m <span style="color: #33FF99">Louis Chen</span>.</h1>
+                <p>I’m a UX/UI designer from Los Angeles.
+                    <br>
+                    <br>I earned a degree in graphic design at UC Davis, where I learned
+                    to balance aesthetics with product usability. My focus these
+                    days is in visual communication and human-centered design.<br>
+                    <br><span style="color: #4D515F">And I’m trying my best.</span>
+                </p>
+            </div>
+            <div class="heroImg">
+                <img src="images/IMG_3313.jpeg" alt="portrait" class="heroImg">
+            </div>
         </div>
     </section>
+
+    <section class="skills">
+        <h1 id="mySkills"> My UX Skills</h1>
+        <div class="skillsContainer">
+            <div class="divSkills">
+                <h2 class="skillTitle"> User Research </h2>
+                <p class="skillComment">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="divSkills">
+                <h2 class="skillTitle"> Prototyping </h2>
+                <p class="skillComment">
+                    Along with wireframes and mockups, building a prototype greatly helps identify any problems that are
+                    essential for functionality and overall navigation.
+                </p>
+            </div>
+            <div class="divSkills">
+                <h2 class="skillTitle"> Placement Text User </h2>
+                <p class="skillComment">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section class="casestudies">
-        <div class="study1">
-            <img src="/images/Popeyes_Logo.png" class="lftpic">
-            <div class="rightcase">
-                <h2>Project 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <button type="button">Read Case Study</button>
+        <h1 id="myWorks"> My Works</h1>
+        <div class="worksContainer">
+            <div class="divStudyrgt">
+                <img src="images/Role-Call-Logo.png" class="lftpic">
+                <div class="rightcase">
+                    <h2>Role Call</h2>
+                    <p>A travel app that redefines group planning and collaboration.</p>
+                    <button type="button">Read Case Study</button>
+                </div>
+            </div>
+
+            <div class="divStudylft">
+                <img src="images/Role-Call-Logo.png" class="rgtpic">
+                <div class="leftcase">
+                    <h2>Project 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <button type="button">Read Case Study</button>
+                </div>
+            </div>
+
+            <div class="divStudyrgt">
+                <img src="images/Role-Call-Logo.png" class="rgtpic">
+                <div class="rightcase">
+                    <h2>Project 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <button type="button">Read Case Study</button>
+                </div>
             </div>
         </div>
-
-        <div class="study2">
-            <img src="/images/Popeyes_Logo.png" class="rgtpic">
-            <div class="leftcase">
-                <h2>Project 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua.</p>
-                <button type="button">Read Case Study</button>
-            </div>
-        </div>
-
-        <!-- <div class="study3">
-            <h2>Project 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-            <button type="button">Read Case Study</button>
-        </div> -->
     </section>
     <footer></footer>
+    
+    <script src="js/index.js"></script>
 </body>
 
 </html>

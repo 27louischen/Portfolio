@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #353A4A;
+    background-image: linear-gradient(to bottom right, #353A4A, #494e5c);
 }
 
 .navigation {
@@ -20,53 +20,60 @@ body {
 
 .navigation nav {
     color: white;
-    font-size: 120px;
+    font-size: 7vw;
     font-weight: normal;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* .header.shrink {
-    height: 60px;
-}
-
-.header.shrink nav {
-    font-size: 25px;
-} */
-
 nav ul li {
     display: inline-block;
-    margin: 2px 15px;
+    margin: 0px 20px 0px 20px;
     padding: 4px;
 }
 
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 15% 8.5% 0% 8.8%;
+}
+
 .home {
+    display: inline-flex;
+    height: 100vh;
+}
+
+/* .home {
     align-items: center;
     display: flex;
     min-width: 100%;
     height: 100vh;
     justify-content: flex-end;
-}
+} */
 
 .heroImg {
-    float: right;
-    color: white;
-    max-width: 55%;
-    margin-right: 23%;
+    max-width: 35rem;
 }
 
 .hello {
+    text-align: left;
+    text-justify: center;
+    flex-direction: row;
+    max-width: max-content;
+}
+
+/* .hello {
     text-justify: center;
     text-align: left;
     flex-direction: row;
     max-width: 35%;
     margin-left: 13%;
-}
+} */
 
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 4vw;
     color: white;
-    width: auto;
+    width: max-content;
 }
 
 p {
@@ -76,10 +83,55 @@ p {
     color: white;
 }
 
+/*---SKILLS SECTION---*/
+
+.skills {
+    height: 35vh;
+}
+
+#mySkills {
+    font-size: 3vw;
+    margin: 0px 0px 0px 8.8%;
+    color: #33FF99;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 8.8% 0px 8.8%;
+}
+
+.divSkills {
+    width: 40%;
+    margin: 20px 50px 0px 0px;
+    text-align: left;
+}
+
+.skillTitle {
+    padding-bottom: 10px;
+}
+
+.skillComment {
+    font-size: 1vw;
+}
+
+/*---WORKS SECTION---*/
+
+#myWorks {
+    font-size: 3vw;
+    margin: 0px 0px 0px 8.8%;
+    color: #33FF99;
+}
+
+.worksContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .casestudies {
     position: relative;
-    float: center;
-    height: 100rem;
+    height: 150vh;
 }
 
 .casestudies p {
@@ -89,35 +141,42 @@ p {
 .lftpic {
     display: inline-block;
     width: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.rightcase {
+    margin: auto 0;
+    padding-left: 15px;
 }
 
 .rgtpic {
     display: inline-block;
     width: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
-.study1 {
-    position: relative;
-    float: center;
-    text-align: center;
-    width: 40%;
-    margin-bottom: 10rem;
+.leftcase {
+    margin: auto 0;
+    padding-right: 15px;
 }
 
-.study2 {
-    position: relative;
-    float: center;
+.divStudyrgt {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     width: 40%;
+    padding: 25px 0px 30px 0px;
 }
 
-/* .study3 {
-    position: relative;
-    float: center;
-    display: inline-block;
+.divStudylft {
+    display: flex;
+    flex-direction: row-reverse;
     text-align: center;
     width: 40%;
-} */
+    padding: 30px 0px 30px 0px;
+}
 
 button {
     background-color: #33FF99;
@@ -139,8 +198,10 @@ h2 {
     color: white;
 }
 
+/*---FOOTER SECTION---*/
+
 footer {
     bottom: 0;
-    height: 300px;
+    height: 30vh;
     background-color: white;
 }
